@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html> 
+  <head> 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Riad Traiding Co.</title><link href="https://fonts.googleapis.com/css2?family=Rakkas&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lalezar&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lateef&display=swap" rel="stylesheet">
+<link href='https://api.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.css' rel='stylesheet' />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <div class="uper-bar">
+<div class="container">
+<div class="py-2">
+<div class="col-12 d-flex justify-content-between">
+<nav class="list-unstyled ">
+<li class="for-pad"><i class="fa fa-mobile  fa-fw" aria-hidden="true"></i>101,california,tx 70240</li>
+<li class="pl-1  for-pad-1"><i class="fa fa-phone" aria-hidden="true"></i>+   123 456 789</li>
+</nav>
+<div class="face  d-flex">
+<div class=" select-img">
+<button class="btn btn-secondary" id="toggle-lang" data-lang="0" type="button"><span>EN</span></button>                       
+</div>                    
+<div class="pr-3 for-pad-2" style="color: #fff; font-size:12px;"><i class="fa fa-facebook  fa-fw" aria-hidden="true"></i>bayan jarour</div>
+</div>
+</div>
+</div>
+</div> 
+</div>
+<div class="head">
+<div class="overlay">
+<div class="container">
+<nav class="navbar navbar-expand-md navbar-light " >
+<h1 class="nav-h1">RIAD</h1>
+<button class="navbar-toggler" type="button" class="main-color main-border-color" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+<i class="fa fa-list-ul" aria-hidden="true"></i>
+</button>
+<div class="collapse navbar-collapse" id="navbarNav">
+<ul class="navbar-nav">
+<li class="nav-item" data-sec="contact" >
+<a class="nav-link ml-1 nav-content header-border contact-id" style="font-size:16px;color: #fff;cursor: pointer;">تواصل معنا</a>
+</li>
+<li class="nav-item" data-sec="train" >
+<a class="nav-link ml-1 nav-train header-border service-id" style="font-size:16px;color: #fff;cursor: pointer;" >الخدمات</a>
+</li>
+<li class="nav-item" data-sec="about" >
+<a class="nav-link  ml-1 nav-about header-border about-id" style="font-size:16px;color: #fff; cursor: pointer;" >من نحن</a>
+</li>
+<li class="nav-item " data-sec="home" >
+<a class="nav-link nav-home ml-1 header-border home-id" style="font-size:16px;color: #fff;cursor: pointer;">الرئيسية <span class="sr-only">(current)</span></a>
+</li>
+</ul>
+</div>
+</nav>
+</div>
+</div>   
+</div>    
+<section class="home" id="home">
+<div class="overlay">
+<div class="home-text h-100">
+<div class="btn-home">
+<div class="father-svg-h2 container">
+<svg viewbox="0 5 100 21">
+<defs>
+<linearGradient id="gradient">
+<stop offset="5%" stop-color="#ff5f13"/>
+<stop offset="95%" stop-color="#ff5f13"/>
+</linearGradient>
+<pattern id="main_wave" x="0" y="11" width="100%" height="100%" patternUnits="userSpaceOnUse">
+<path id="wavePath" d="M-40 9 Q-30 7 -20 9 T0 9 T20 9 T40 9 T60 9 T80 9 T100 9 T120 9 V20 H-40z" mask="url(#mask)" fill="url(#gradient)"> 
+<animateTransform attributeName="transform" begin="0s" dur="3.5s" type="translate" from="0,0" to="40,0" repeatCount="indefinite" />
+</path>
+</pattern>
+</defs>
+<text class="home-h1 for-res-non"  x="0" y="11" font-size="14" fill="#ff5f13"  fill-opacity="1">Riad</text>
+<text class="home-h1 for-res"  x="30" y="11" font-size="14" fill="#ff5f13"  fill-opacity="1">Riad</text>
+<text text-anchor="middle" class="for-res-non" x="50" y="23" font-size="7.8"  fill="url(#main_wave)"  fill-opacity="1">FOR GENRAL TRADING</text>
+<text class="for-srtrock for-res-non" text-anchor="middle" x="50"  y="23" font-size="7.8" fill="white" fill-opacity="0.1">FOR GENRAL TRADING</text>
+<text class="for-res" text-anchor="middle " x="50" y="23" font-size="10.8"  fill="url(#main_wave)"  fill-opacity="1">FOR</text>
+<text class="for-srtrock for-res" text-anchor="middle" x="50"  y="23" font-size="10.8" fill="white" fill-opacity="0.1">FOR</text>
+</svg>  
+<svg viewbox="0 14 100 10">
+<defs>
+<linearGradient id="gradient">
+<stop offset="5%" stop-color="#ff5f13"/>
+<stop offset="95%" stop-color="#ff5f13"/>
+</linearGradient>
+<pattern id="main_wave" x="0" y="11" width="100%" height="100%" patternUnits="userSpaceOnUse">
+<path id="wavePath" d="M-40 9 Q-30 7 -20 9 T0 9 T20 9 T40 9 T60 9 T80 9 T100 9 T120 9 V20 H-40z" mask="url(#mask)" fill="url(#gradient)"> 
+<animateTransform attributeName="transform" begin="0s" dur="3.5s" type="translate" from="0,0" to="40,0" repeatCount="indefinite" />
+</path>
+</pattern>
+</defs>
+<text text-anchor="middle" class="for-res" x="50" y="23" font-size="10"  fill="url(#main_wave)"  fill-opacity="1">GENRAL TRADING</text>
+<text class="for-srtrock for-res" text-anchor="middle" x="50"  y="23" font-size="10" fill="white" fill-opacity="0.1">GENRAL TRADING</text>
+</svg> 
+</div>    
+</div>
+</div>
+</div>
+</section>
+<section class="about pb-5 col-lg-12" id="about">    
+<div class="about-body row container" style="margin:auto;">
+<div class="about-img pt-5  col-lg-6 algin-item-center">
+<img src="img/photo_2020-12-23_03-33-17.jpg">
+</div>
+<div class="about-text pt-5 col-lg-6 ">
+<div class="about-text-p">
+<h1 class="pb-3 title-about" id="about-title-id">من نحن</h1>
+<p id="about-text-id">شركة تجارية تتمتع بمواصفات خارقة وخارجة عن الطبيعةنستطيع أن ،ـجار بكل شيء ونتمتع بسلاسة مع الزبون
+    لا للخورفة عنا ونتمتع بربح بسيط في الرأس المال
+    تفعل الآن هلم بك إلينا قبل مانطير
+    شركة تجارية تتمتع بمواصفات خارقة وخارجة عن الطبيعة
+    نستطيع أن ،ـجار بكل شيء ونتمتع بسلاسة مع الزبون
+    لا للخورفة عنا ونتمتع بربح بسيط في الرأس المال
+    ما تفعل الآن هلم بك إلينا قبل مانطي
+    شركة تجارية تتمتع بمواصفات خارقة وخارجة عن الطبيعة
+    نستطيع أن ،ـجار بكل شيء ونتمتع بسلاسة مع الزبون
+    لا للخورفة عنا ونتمتع بربح بسيط في الرأس المال
+    ماا تفعل الآن هلم بك إلينا قبل مانطي
+    شركة تجارية تتمتع بمواصفات خارقة وخارجة عن الطبيعة
+    نستطيع أن ،ـجار بكل شيء ونتمتع بسلاسة مع الزبون
+    لا للخورفة عنا ونتمتع بربح بسيط في الرأس المال
+    م تفعل الآن هلم بك إلينا قبل مانطي</p>
+</div>
+</div>
+</div>
+</section>
+<section class="train" id="train">
+<div class="overlay-train  pb-5">
+<div class="train-title text-center py-5">
+<h1 id="train-title-id">الخدمات</h1>
+</div>   
+<div class="col-12 "> 
+<div class="row  container train-main text-center" style="margin:auto;">
+<div class="col-lg-3 col-sm-6 col-12 mb-5 servic-item">
+<div class="train-item1  py-3 text-center d-flex ">
+<div class="train-i text-center ">
+<img src="img/delivery-car.png" style="width:30px"></img>
+</div>
+<h5 style="white-space: nowrap;" class="py-4" id="train-h4-id">شحن دولي</h5>
+<p class="py-4 px-2" id="train-p-id">يمكننا توصيلك إلىأي مكان أنت تريده كل ماهنالك كن معنا في تدويرك والذهاب</p>
+<button class="btn  btn-train" id="btn-serv" type="button" onclick="location.href='mailto:info@riad-Trading.com';">اطلب</button>
+</div>
+</div>
+<div class="col-lg-3 col-sm-6 col-12 mb-5 servic-item">
+<div class="train-item1  py-3  text-center d-flex ">
+<div class="train-i text-center " >
+<img src="img/briefcase.png" style="width:30px"></img>
+</div>
+<h5 style="white-space: nowrap;" class="py-4" id="train-h4-id1" > تجارة  عامة</h5>
+<p class="py-4 px-2" id="train-p-id1">يمكننا توصيلك إلىأي مكان أنت تريده كل ماهنالك كن معنا في تدويرك والذهاب</p>
+<button class="btn  btn-train"  id="btn-serv2"  type="button" onclick="location.href='mailto:info@riad-Trading.com';">اطلب</button>
+</div>
+</div>
+<div class="col-lg-3 col-sm-6 col-12 mb-5 servic-item">
+<div class="train-item1  py-3 text-center d-flex ">
+<div class="train-i text-center ">
+<img src="img/3156201-200.png" style="width:30px"></img>
+</div>
+<h5 style="white-space: nowrap;" class="py-4" id="train-h4-id2">تخليص جمركي</h5>
+<p class="py-4 px-2"  id="train-p-id2">يمكننا توصيلك إلىأي مكان أنت تريده كل ماهنالك كن معنا في تدويرك والذهاب</p>
+<button class="btn  btn-train" id="btn-serv3"  type="button" onclick="location.href='mailto:info@riad-Trading.com';">اطلب</button>
+</div>
+</div>
+<div class="col-lg-3 col-sm-6 col-12 mb-5 servic-item">
+<div class="train-item1  py-3  text-center d-flex ">
+<div class="train-i text-center ">
+<img src="img/import.png"></img>
+</div>
+<h5 style="white-space: nowrap;" class="py-4" id="train-h4-id3">إستيراد وتصدير</h5>
+<p class="py-4 px-2"  id="train-p-id3">يمكننا توصيلك إلىأي مكان أنت تريده كل ماهنالك كن معنا في تدويرك والذهاب</p>
+<button class="btn  btn-train"  id="btn-serv1"  type="button" onclick="location.href='mailto:info@riad-Trading.com';">اطلب</button>
+</div>
+</div>
+</div>
+</div>
+</div>     
+</section>
+<section class="contact" id="contact">
+<div class="overlay">
+<div class="contact-title py-5">
+<h1 id="contact-title-id">تواصل معنا</h1>
+</div>
+<div class="container py-2" >
+<div class="contact-body row">
+<div class="contact-list col-12 col-lg-4 col-md-6  pl-0 d-flex">
+<ul class="p-0 "> 
+<div class="py-3 contact-2 ">
+<li class="px-4 text-center" id="btn-con">تواصل معنا</li>
+</div>                                             
+<div class="py-3 d-flex  contact-2 ">
+<div class="contact-i">
+<i class="fa fa-phone" aria-hidden="true"></i>
+</div>
+<li class="px-4"><a style="color:#fff; text-decoration: none;" href="tel:+963 212 248 948">+963 212 248 948</a></li>
+</div>
+<div class="py-3 d-flex  contact-2 ">
+<div class="contact-i">
+<img src="img/mobile-icon-31.png" style="width:30px;"></img>
+</div>
+<li class="px-4"><a style="color:#fff; text-decoration: none;" href="tel:+963 212 248 948">+963 212 248 948</a></li>
+</div>
+<div class="py-3 d-flex  contact-2">
+<div class="contact-i">
+<i class="fa fa-map-marker"></i>
+</div>
+<li class="px-4" id="contact-location">حلب-حلب الجديدة</li>
+</div>
+<div class=" d-flex  pt-2 d-flexcontact-2 ">
+<button class="btn btn-primary contact-button align-items-center mx-2"  onclick="location.href='https://www.facebook.com/groups/Altjmo3/';" ><i class="fa fa-facebook-f "></i></button>
+<button class="btn  btn-success contact-button align-items-center mx-2"   onclick="location.href='https://api.whatsapp.com/send?phone=15551234567'" ><i class="fa fa-whatsapp" aria-hidden="true"  ></i></button>
+<button type="button" class="btn  btn-secondary  contact-button align-items-center mx-2"  onclick="location.href='mailto:info@riad-Trading.com';"><i class="fa fa-envelope-open" aria-hidden="true"></i></button>
+</div> 
+</ul>
+</div>
+<div class="contact-list contact-maplist col-12 col-lg-4 col-md-6  pl-0 d-flex">
+<ul class="p-0 "> 
+<div class="py-2 contact-2 ">
+<li class="mx-4 text-center" id="mapWeb-id"> خريطة الموقع</li>
+</div>                                             
+<div class="py-2 d-flex contact-2">
+<div class="contact-i">
+<img src="img/Iconly-Light-Category.png"></img>
+</div>
+<li class="mx-4  nav-item "  data-sec="home" ><a class="header-border nav-link home-id" >الرئيسية</a></li>
+</div>
+<div class="py-2 d-flex  contact-2  ">
+<div class="contact-i">
+<img src="img/Iconly-Light-3 User.png" style="width:30px;"></img>
+</div>
+<li class="mx-4 nav-item " data-sec="about"><a class="header-border nav-link about-id">من نحن</a></li>
+</div>
+<div class="py-2  d-flex  contact-2 " >
+<div class="contact-i" >
+<img src="img/Iconly-Light-Work.png"></img>
+</div>
+<li class="mx-4 nav-item " id="contact-location"  data-sec="train"><a class="header-border nav-link service-id">الخدمات</a></li>
+</div>
+<div class="py-2  d-flex  contact-2"  >
+<div class="contact-i">
+<img src="img/Iconly-Light-Calling.png"></img>
+</div>
+<li class="mx-4 nav-item " data-sec="contact"><a class="header-border nav-link  contact-id" >تواصل معنا</a></li>
+</div> 
+</ul>
+</div>
+<div class="contact-map col-12 col-lg-4  " >
+<div  id='map' style='width: 100%; height: 300px;' >
+<div id="aeroplane"><img src="img/airplane.png"></img></div>
+</div>
+</div>   
+</div>
+</div>
+<div style="position:relative; z-index:1; width:100%; height:100px">
+<img id="ship" src="img/cargo-ship (1).png"></img>
+</div>
+<div class="footer d-flex text-center">
+<div class="container">            
+<div class="footer-copyright row">
+<div class="d-flex footer-copyright-1 col-sm-6 col-md-6 col-lg-6 col-12">
+<p class=" pt-3" id="contact-footer-1"> رياض 2020 ©جميع الحقوق محفوظة</p>
+</div>
+<div class=" d-flex footer-a-img col-sm-6 col-md-6 col-lg-6 col-12 ">
+<a href="https://www.elkood.com">
+<img class="img-footer" src="img/logo.png"></img>
+</a>
+<p class="pt-3" id="contact-footer-2">تم تطويره بواسطة</p>  
+</div>
+</div>
+<footer>
+<svg viewBox="0 0 120 28" class="wave-svg-container">
+<defs> 
+<filter id="goo">
+<feGaussianBlur in="SourceGraphic" stdDeviation="1" result="blur" />
+<feColorMatrix in="blur" mode="matrix" values="
+    <1>0 0 0 0  </1>
+    <0>1 0 0 0  </0>
+    <0>0 1 0 0  </0>
+    <0>0 0 13 -9" result="goo" /></0><xfeBlend in="SourceGraphic" in2="goo" />
+</filter>
+<path id="wave" d="M 0,10 C 30,10 30,15 60,15 90,15 90,10 120,10 150,10 150,15 180,15 210,15 210,10 240,10 v 28 h -240 z" />
+</defs> 
+<use id="wave3" class="wave" xlink:href="#wave" x="0" y="-2" ></use> 
+<use id="wave2" class="wave" xlink:href="#wave" x="0" y="0" ></use>                                
+<svg  width="512" height="512" x="0" y="0" viewBox="0 0 511.999 511.999" style="enable-background:new 0 0 512 512" xml:space="preserve">
+<path d="M509.814,261.499c-2.576-4.056-6.984-6.478-11.789-6.478h-63.4c-11.302,0-20.498,9.195-20.498,20.497    c0,0.224-0.018,0.444-0.044,0.661v-48.335c0-6.945-5.651-12.596-12.595-12.596h-54.892v-56.151c0-5.349-4.352-9.701-9.701-9.701    H206.298c-5.349,0-9.702,4.352-9.702,9.701V280.99h-23.231v-44.341c5.45-0.013,9.88-4.449,9.88-9.902v-18.353    c0-5.461-4.443-9.904-9.904-9.904h-22.338v-55.219c0-6.184-5.031-11.215-11.216-11.215h-32.232V95.16    c0-4.193-3.399-7.592-7.592-7.592s-7.592,3.399-7.592,7.592v36.897H60.139c-6.184,0-11.215,5.031-11.215,11.215v55.219h-22.34    c-5.461,0-9.904,4.443-9.904,9.904v18.353c0,5.453,4.43,9.89,9.88,9.902v44.341H13.005c-3.94,0-7.623,1.755-10.103,4.815    c-2.477,3.054-3.431,7.011-2.618,10.856c5.457,25.827,18.672,51.016,38.217,72.843c1.04,1.162,1.69,2.561,1.965,4.029    c0.075,0.4,0.118,0.801,0.135,1.2c0.002,0.044,0.008,0.089,0.009,0.133c0.011,0.378-0.013,0.753-0.052,1.126    c-0.008,0.071-0.007,0.143-0.017,0.214c-0.046,0.346-0.125,0.685-0.214,1.023c-0.024,0.09-0.035,0.181-0.062,0.27    c-0.125,0.418-0.28,0.828-0.471,1.227l-12.26,25.667c-2.084,4.364-1.789,9.413,0.791,13.504s7.007,6.533,11.844,6.533h391.392    c5.388,0,10.35-3.151,12.64-8.028l66.464-141.48C512.709,270.575,512.39,265.555,509.814,261.499z M346.595,230.273h52.464v50.718    h-52.464V230.273z M279.107,164.42h52.464v50.828h-52.464V164.42z M279.107,230.273h52.464v50.718h-52.464V230.273z     M211.62,164.42h52.464v50.828H211.62V164.42z M211.62,230.273h52.464v50.718H211.62V230.273z M63.948,147.081h72.031v51.41    H63.948V147.081z M31.705,213.515H168.22v8.112H83.259c-4.149,0-7.512,3.363-7.512,7.512s3.363,7.512,7.512,7.512h75.082v44.34    H41.585v-44.34h6.349c4.149,0,7.512-3.363,7.512-7.512s-3.363-7.512-7.512-7.512H31.705V213.515z M451.965,364.547h-74.468    c-4.149,0-7.512,3.363-7.512,7.512s3.363,7.512,7.512,7.512h67.41l-14.017,29.837H41.79l11.561-24.205    c0.239-0.5,0.455-1.006,0.656-1.517c0.063-0.16,0.117-0.322,0.177-0.482c0.13-0.352,0.256-0.704,0.368-1.06    c0.063-0.198,0.119-0.397,0.177-0.596c0.091-0.315,0.176-0.631,0.253-0.948c0.056-0.232,0.109-0.463,0.158-0.695    c0.023-0.111,0.054-0.222,0.076-0.333h286.955c4.149,0,7.512-3.363,7.512-7.512s-3.363-7.512-7.512-7.512H53.137    c-0.911-1.801-2.051-3.51-3.443-5.064c-17.421-19.455-28.906-40.795-34.167-63.469l391.043,0.111c0.423,0,1.68-0.043,2.083-0.111    c11.302,0,20.497-9.195,20.497-20.497c0-3.018,2.455-5.473,5.474-5.473h61.735L451.965,364.547z" fill="#ffffff" data-original="#000000" style=""/>
+</svg>
+</footer> 
+</div>
+</div>
+</div>
+</section> 
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script><script src="https://api.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.js"></script>
+<script src="js/scriptMap.js"></script>
+    <script src="http://localhost:35729/livereload.js"> </script>
+  </body>
+</html>
